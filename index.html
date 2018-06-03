@@ -1,34 +1,79 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-	<title>Mike Palafox </title>
+    <title>Mike Palafox </title>
+    <style>
+    html {
+        position: relative;
+        min-height: 100%;
+    }
 
-	<style>
-	html {
-	  position: relative;
-	  min-height: 100%;
-	}
-	body {
-	  /* Margin bottom by footer height */
-	  margin-bottom: 60px;
-	  background-color: #333333;
-	}
-	.jumbotron{padding:30px;margin-bottom:30px;color:inherit;background-color:#eee}
-	.jumbotron h1,.jumbotron .h1{font-size:63px}
-	.jumbotron p{margin-bottom:15px;font-size:21px;font-weight:200}
-	body > .container {
-	  padding: 80px 15px 0;
-	}
-	</style>
+    body {
+        /* Margin bottom by footer height */
+        margin-bottom: 60px;
+        background-color: #333333;
+        font-family: sans-serif;
+    }
 
+    .jumbotron {
+        padding: 30px;
+        margin-bottom: 30px;
+        color: inherit;
+        background-color: #eee;
+        border-radius: 6px;
+    }
+
+    .jumbotron h1,
+    .jumbotron .h1 {
+        font-size: 63px
+    }
+
+    .jumbotron p {
+        margin-bottom: 15px;
+        font-size: 21px;
+        font-weight: 200
+    }
+
+    .container {
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto
+    }
+
+    @media (min-width:768px) {
+        .container {
+            width: 750px
+        }
+    }
+
+    @media (min-width:992px) {
+        .container {
+            width: 970px
+        }
+    }
+
+    @media (min-width:1200px) {
+        .container {
+            width: 1170px
+        }
+    }
+
+    body>.container {
+        padding: 80px 15px 0;
+        width: 970px;
+    }
+    </style>
 </head>
-<body>
-	<div class="container">	
-		<div class="jumbotron">
-			<h1>Hello,</h1>
-			<p>My name is Mike Palafox. Welcome to my website. It is currently under construction. Please check back again soon!</p>
-		</div>
-	</div>
 
+<body>
+    <div class="container">
+        <div class="jumbotron">
+            <h1>Hello,</h1>
+            <p>My name is Mike Palafox. Welcome to my website. It is currently under construction. Please check back again soon!</p>
+        </div>
+    </div>
 </body>
+
 </html>
